@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>toMain</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.toMain</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoadManager</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.LoadManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePwd</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.ChangePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manSave</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.manSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DropSingleUser</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.DropSingleUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DropBatchUser</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.DropBatchUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReSetPwd</servlet-name>
+    <servlet-class>edu.fjnu.hm.controller.ReSetPwd</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>toMain</servlet-name>
+    <url-pattern>/toMain</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadManager</servlet-name>
+    <url-pattern>/LoadManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwd</servlet-name>
+    <url-pattern>/ChangePwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manSave</servlet-name>
+    <url-pattern>/manSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DropSingleUser</servlet-name>
+    <url-pattern>/DropSingleUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DropBatchUser</servlet-name>
+    <url-pattern>/DropBatchUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/AddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReSetPwd</servlet-name>
+    <url-pattern>/ReSetPwd</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
